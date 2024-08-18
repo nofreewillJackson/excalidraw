@@ -29,10 +29,10 @@ export const AppMainMenu: React.FC<{
         href={`${
           import.meta.env.VITE_APP_PLUS_LP
         }/plus?utm_source=excalidraw&utm_medium=app&utm_content=hamburger`}
-        className="ExcalidrawPlus"
       >
         Excalidraw+
       </MainMenu.ItemLink>
+
       <MainMenu.DefaultItems.Socials />
       <MainMenu.Separator />
       <MainMenu.DefaultItems.ToggleTheme />
